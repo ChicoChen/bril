@@ -10,7 +10,7 @@ pipeline = [
 [runs.tdce]
 pipeline = [
     "bril2json",
-    "python3 ../examples/tdce.py tdce+",
+    "../../build/dce",
     "brili -p {args}",
 ]
 
