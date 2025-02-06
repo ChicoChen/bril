@@ -1,1 +1,1 @@
-command = "bril2json < {filename} | ../../../../build/l3_dce {args} | bril2txt"
+command = "bril2json < {filename} | ../../../../build/dce {args} | bril2txt"
